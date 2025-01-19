@@ -1,6 +1,4 @@
-# ComputerVision
-
-# Project: Age Verification with Computer Vision
+# Age Verification with Computer Vision
 
 ## Table of Contents
 1. [Project Overview](#project-overview)  
