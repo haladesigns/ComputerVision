@@ -83,20 +83,20 @@ EDA highlights:
 Inside the notebook, find detailed:
 
 1. Model Architecture:
-- Used a pre-trained ResNet50 (example) fine-tuned on our dataset.
-- Why this architecture? (e.g., balanced performance vs. complexity)
+- Used a pre-trained ResNet50 fine-tuned on the dataset.
+- Why this architecture: balanced performance vs. complexity
 
 2. Training Configuration:
 - GPU Environment: Training utilized a GPU for faster convergence.
-- Hyperparameters: Learning rate set at 1e-4, batch size of 32, trained for 20 epochs (example).
+- Hyperparameters: Learning rate set at 1e-4, batch size of 32, trained for 20 epochs.
 - Loss Function: Mean Squared Error (MSE) or Mean Absolute Error (MAE) for regression-based age prediction.
 
 3. Evaluation Metrics:
 - MAE (Mean Absolute Error) to measure the average absolute difference between predicted and true ages.
-- Accuracy Threshold (optional): The percentage of predictions within ± 3 years of the ground truth (example).
+- Accuracy Threshold: The percentage of predictions within ± 3 years of the ground truth (example).
 
 4. Cross-Validation or Train/Validation/Test Split:
-- We split the dataset into 70% train, 15% validation, 15% test (modify according to your notebook).
+- Split the dataset into 70% train, 15% validation, 15% test.
 - No overlap between sets to avoid data leakage.
 
 5. Training Process:
