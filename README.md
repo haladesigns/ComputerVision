@@ -76,6 +76,7 @@ EDA highlights:
 - Age Distribution: The data is heavily concentrated on the younger ages, with the frequency peaking around ages 15-25.
 - Peak Age Group: The highest frequency of individuals seems to be in the age range of approximately 15 to 30 years, suggesting a young population.
 - Outliers: There are very few individuals aged 70 and above, which might indicate outliers or a natural cutoff in the dataset.
+![Age Distribution](https://github.com/user-attachments/assets/4e6e2b06-d1f2-4e77-af53-681672fdd050)
 
 ## Model Training and Evaluation
 Inside the notebook, find detailed:
